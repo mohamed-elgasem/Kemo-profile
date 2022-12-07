@@ -1,0 +1,120 @@
+body{
+    background-color: yellow;
+  }
+  .image{
+    text-align: center;
+  }
+  .image img{
+    position: absolute;
+    top: -50px;
+    left: 145px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  .text{
+    padding-top: 55px;
+    text-align: center;
+  }
+  .text h1{
+    font-size: 24px;
+  }
+  .text label{
+    color: blue;
+  }
+  .text h4{
+    font-size: 20px;
+  }
+  .text p{
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .follow{
+    display: flex;
+    justify-content: space-around;
+  }
+  .mobile{
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 101%;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  .board ul{
+    list-style: none;
+    line-height: 40px;
+  }
+  .board ul li{
+    font-weight: 600; 
+  }
+  .board ul span{
+    color: #777;
+    padding-right: 10px;
+  }
+  .button{
+    color: #fff;
+    margin-bottom: 10px;
+    display: flex;
+    /* justify-content: space-around; */
+  }
+  .button .main-btn{
+    background-color: #042c46;
+    padding: 3px 80px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+  
+  }
+  .button .more{
+    background-color: #042c46;
+    padding: 3px 10px;
+    border-radius: 5px;
+  }
+  .post{
+    padding-bottom: 10px;
+  }
+  .post h4{
+    background-color: #ccc;
+    padding-left: 21px;
+    padding: 20px 0 20px 21px;
+  }
+  .post input{
+    padding-left: 10px;
+    border: 1px solid #777;
+    width: 295px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 10px 0 10px;
+  }
+  .post img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+  
+  
+  
+  
+  /* Small  */
+  @media (min-width: 768px){
+    .mobile{
+      width: 30%;
+    }  
+  }
+  
+  /* Medium */
+  @media (min-width: 992px){
+    .mobile{
+      width: 30%;
+    }  
+  }
+  
+  /* Large  */
+  @media (min-width: 1200px){
+    .mobile{
+      width: 30%;
+    }  
+  }
